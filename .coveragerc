@@ -1,2 +1,2 @@
 [run]
-omit = Tests.py
+omit = Tests.py, *__init__.py

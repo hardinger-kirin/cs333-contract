@@ -20,6 +20,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python3 -m pip install coverage
+          pip install names
           pip install ruff pytest
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Lint with ruff
