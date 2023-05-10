@@ -418,7 +418,7 @@ def run_day(shop_name):
         buy_new_ingredients(shop_name, day_num, m_shop, m_inventory)
 
 def main():
-    print("*****THIS IS NEW!!!!!!*****")
+    print("***THIS IS NEW***")
     intro()
     color_print("Welcome to your new life as a boba shop owner!", 'g')
     shop_name = False
